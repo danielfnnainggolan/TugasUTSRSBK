@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body style="background-color: #ffdd8b4d;">
+  <div class="container">
+    <h2 align="center">Form survey</h2>
+    
+  <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Nama depan</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Nama belakang</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Alamat jalan</label>
+    <textarea type="text" class="form-control" id="inputAddress" ></textarea>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Kota</label>
+    <input type="text" class="form-control" id="inputAddress" >
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Negara bagian</label>
+    <input type="text" class="form-control" id="inputAddress" >
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Kode pos</label>
+    <input type="text" class="form-control" id="inputAddress" >
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Nomor telepon</label>
+    <input type="text" class="form-control" id="inputAddress" >
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Email</label>
+    <input type="text" class="form-control" id="inputAddress" >
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Tanggal survey</label>
+    <input type="date" class="form-control" id="inputAddress2">
+  </div>
+  <div class="form-group">
+    <label for="tingkat_p" class="control-label">Apa yang membuat anda tertarik dengan universitas diponegoro</label>
+    <div class="form-group">
+        <input id="tingkat_p" name="tingkat_p" type="radio" value="teman"><span> Teman</span>
+        <input id="tingkat_p" name="tingkat_p" style="margin-left: 25px" value="televisi" type="radio"><span> Televisi </span>
+        <input id="tingkat_p" name="tingkat_p" style="margin-left: 25px" value="Internet" type="radio"><span> Internet</span>
+        <input id="tingkat_p" name="tingkat_p" style="margin-left: 25px" value="salinan" type="radio"><span> Lingkungan sekitar</span>
+        <input id="tingkat_p" name="tingkat_p" style="margin-left: 25px" value="salinan" type="radio"><span> ainnya</span>
+
+    </div>
+</div>
+  <div class="form-row">
+    <div class="form-group">
+      <label for="inputState">Apakah anda akan merekomendasikan sekolah ini kepada calon siswa lain</label>
+      <select id="inputState" class="form-control">
+        <option>Sangat mungkin</option>
+        <option>Mungkin</option>
+        <option>Tidak mungkin</option>
+      </select>
+    </div>
+  </div>
+      <div class="form-group ">
+        <label for="inputZip">Komentar tambahan</label>
+        <textarea type="textarea" class="form-control" id="inputZip"></textarea>
+
+      </div>
+  <button type="submit" class="btn btn-primary">Kirim</button> 
+  <button type="submit" class="btn btn-primary">Batal</button>
+</form>
+
+</div>
+</body>
+</html>
